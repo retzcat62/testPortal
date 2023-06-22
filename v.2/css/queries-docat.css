@@ -135,7 +135,7 @@ nav ul ul li a{ line-height:20px; font-weight:300; font-size:11pt;}
 .nav-bottom{ transform: translate(-50%, 94%);}
 h1.home-left{font-size:34pt; }
 .main-text-left{ font-size:35pt; line-height:45pt;}
-.bgexpedition img{
+.bgdocat img{
 	width:auto;
     height:100%;
 	}
@@ -161,7 +161,7 @@ h1.home-left{font-size:34pt; }
     height: 100vh;
     overflow: hidden;
   }
-  .bgexpedition, .overlay-home-left{
+  .bgdocat, .overlay-home-left{
     min-height: 100vh !important;
   }
 }
@@ -192,8 +192,8 @@ nav {
 	top:70px;
 	z-index:999;
 }
-.brand-expedition { top:15px;left:15px; }
-.brand-expedition img{ width:60%;}
+.brand-docat { top:15px;left:15px; }
+.brand-docat img{ width:60%;}
 .nav-bottom{ 
 transform: translate(-50%, 93%);
 }

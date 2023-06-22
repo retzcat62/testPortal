@@ -11,12 +11,12 @@ var allelement = $('div, h1, h2, h3, h4, h5, p, ul, li, a, i, button, section, s
 var holdside = $('.holdsidebar');
 
 // wrapper var
-var expeditionpage = $('.expedition-page');
+var docatpage = $('.docat-page');
 var whitepage = $('.white-page');
 
 // page var 
-var expeditionhome = $('.contentexpedition');
-var bgslideshow = $('#bgslideshow, #particles, .bgexpedition');
+var docathome = $('.contentdocat');
+var bgslideshow = $('#bgslideshow, #particles, .bgdocat');
 var slidtext = $('#slidertext');
 
 // button var 
@@ -33,7 +33,7 @@ var maingall = $('.bottom-option');
 
 //scroll var
 var $win = $(window);
-var nice = $("#wraperexpedition");
+var nice = $("#wraperdocat");
 var totop = $('#totop');
 var topblock = $('.nav-top-block');
 
@@ -213,7 +213,7 @@ $(function() {
     var slideBegin = 4000,
         transSpeed = 1000,
         simple_slideshow = bgslideshow,
-        listItems = simple_slideshow.children('.bgexpedition'),
+        listItems = simple_slideshow.children('.bgdocat'),
         listLen = listItems.length,
         i = 0,
         changeList = function() {

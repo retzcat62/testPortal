@@ -449,7 +449,7 @@ $(function() {
     function i() {
         windowHeight = $(window).innerHeight(), 
 		$(".imgbg").css("min-height", windowHeight),
-		$(".bgexpedition").css("min-height", windowHeight)
+		$(".bgdocat").css("min-height", windowHeight)
     }
     i(), $(window).resize(function() {
         i()

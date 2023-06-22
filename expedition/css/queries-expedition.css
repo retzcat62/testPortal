@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1024px) {
 .nav-bottom{ transform: translate(-50%, 94%);}
-.bgexpedition img{
+.bgdocat img{
 	width:auto;
     height:100%;
 	}
@@ -22,8 +22,8 @@ p{ font-size:10pt;}
 #slidertext span{ font-size:20pt; }
 #nav-icon { right: 15px; top: 18px; width: 28px; height: 15px; }
 .nav-top-block{ height:60px;}
-.brand-expedition { top:15px;left:15px; }
-.brand-expedition img{ width:60%;}
+.brand-docat { top:15px;left:15px; }
+.brand-docat img{ width:60%;}
 .nav-bottom{ 
 transform: translate(-50%, 93%);
 }

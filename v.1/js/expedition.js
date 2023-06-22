@@ -11,12 +11,12 @@ var allelement = $('div, h1, h2, h3, h4, h5, p, ul, li, a, i, button');
 var holdside = $('.holdsidebar');
 
 // wrapper var
-var expeditionpage = $('.expedition-page');
+var docatpage = $('.docat-page');
 var whitepage = $('.white-page');
 
 // page var 
-var expeditionhome = $('.contentexpedition');
-var bgslideshow = $('#bgslideshow, #particles, .bgexpedition');
+var docathome = $('.contentdocat');
+var bgslideshow = $('#bgslideshow, #particles, .bgdocat');
 var slidtext = $('#slidertext');
 
 // button var 
@@ -62,7 +62,7 @@ nice.on('scroll', function(){
       $(this).toggleClass('open');
 	  mainmenu.toggleClass('menu-show');
 	  overlaymenu.fadeToggle("slow");
-	  expeditionhome.toggleClass('minimize');
+	  docathome.toggleClass('minimize');
 	  animmenu.each(function(i){
       var t = $(this);
       setTimeout(function(){ t.toggleClass('show-menu'); }, (i+1) * 50);
@@ -71,7 +71,7 @@ nice.on('scroll', function(){
            iconnav.removeClass('open');
 	       mainmenu.removeClass('menu-show');
 	       overlaymenu.fadeOut("slow");
-	       expeditionhome.removeClass('minimize');
+	       docathome.removeClass('minimize');
 	      animmenu.removeClass('show-menu'); 
           });
         });
@@ -180,7 +180,7 @@ $(function() {
     var slideBegin = 4000,
         transSpeed = 1000,
         simple_slideshow = bgslideshow,
-        listItems = simple_slideshow.children('.bgexpedition'),
+        listItems = simple_slideshow.children('.bgdocat'),
         listLen = listItems.length,
         i = 0,
         changeList = function() {
